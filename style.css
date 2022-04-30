@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@100&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(248, 248, 247);
+    color: rgb(34, 182, 15); 
+    font-family:'Poppins', sans-serif; 
+    max-width: 1200px;
+    margin: 0;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;     
+}
+
+#title {
+    flex-direction: column;
+    line-height: 27px;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;     
+
+}
+
+a {
+    
+    margin: 15px;
+}
+
+main {
+    display: Flex; 
+    flex-direction: row; 
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.cabecalho-item {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(34, 182, 15); 
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: a.3s all;
+}
+
+.Texto{
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(18, 19, 17); 
+    font-weight: 900;
+    font-size: 15px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img {
+    width: 550px;
+}
+
+#inscreva-se {
+    border: 2px solid rgb(34, 182, 15); 
+    padding: 10px; 
+    border-radius: 15px;
+}
+
+#inscreva-se:hover{
+    background-color: rgb(34, 182, 15); 
+    color: white; 
+}
+
+form{
+    display:flex; 
+    flex-direction: column;
+    width: 70%; 
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%; 
+    background-color: rgb(34, 182, 15); 
+    color: white;
+    font-weight: bold;
+
+}
+
+form [type="submit"]:hover{
+    cursor: pointer
+ 
+ }
+
+ input{
+    margin-top: 20px; 
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none; 
+    font-size: 15px; 
+    background-color: rgb(228, 218, 82); 
+}
